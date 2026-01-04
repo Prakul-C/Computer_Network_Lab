@@ -1,0 +1,10 @@
+1 Hostname
+  ip config
+  ip addr
+  ip route
+
+2 netstat-all
+  netstat-at or netstat-all-tcp
+  netstat-au or netstat-all-udp
+  netstat-f inet(IPV4)
+  netstat-f inet6(IPV6)
