@@ -1,9 +1,3 @@
-/*Write a program for congestion control using leaky bucket algorithm 
-and token bucket algorithm.*/
-
-/*Leaky bucket algorithm*/
-
-
 import java.util.Scanner;
 
 public class Main {
@@ -71,10 +65,3 @@ Enter the packets sizes one by one
 3
 4
 6
-
-Time_t	    P_size	  accepted	sent	 remaining
-1	        2	      2	        2	     0
-2	        3	      3	        2	     1
-3	        4	      4	        2	     3
-4	        6	   dropped	    2	     1
-*/
