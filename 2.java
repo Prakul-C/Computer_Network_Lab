@@ -1,6 +1,4 @@
-/*Write a program to sort frames using appropriate sorting techniques*/
 import java.util.*;
-
 public class sort1 {
     public static void main(String[] args) {
         List<int[]> frame = new ArrayList<>();
