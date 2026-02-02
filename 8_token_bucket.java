@@ -1,7 +1,3 @@
-/*Token Bucket for congestion control*/
-
-/* In this the bucket is filled with constant rate called token_generation_rate untill the bucket is full */
-
 import java.util.Scanner;
 import java.util.*;
 
@@ -39,27 +35,3 @@ Enter the Token generation rate (Rate at which tokens are sent to the bucket)
 2
 Enter the number of Cycles the host computer sends the Tokens to the bucket(at constant rate)
 6
-Time_t  Tokens Requested    Tokens Sent   Tokens Remaining in bucket
-1             2                    2       2
-2             2                    2       4
-3             2                    1       5
-4             2                    0       5
-5             2                    0       5
-6             2                    0       5
-*/    
-
-/*OUTPUT:-
-Enter the bucket capacity
-5
-Enter the Token generation rate (Rate at which tokens are sent to the bucket)
-2
-Enter the number of Cycles the host computer sends the Tokens to the bucket(at constant rate)
-6
-Time_t  Tokens Requested    Tokens Sent   Tokens Remaining in bucket
-1             2                    2       2
-2             2                    2       4
-3             2                    1       5
-4             2                    0       5
-5             2                    0       5
-6             2                    0       5
-*/
