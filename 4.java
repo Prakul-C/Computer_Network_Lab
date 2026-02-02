@@ -1,8 +1,3 @@
-/*Write a program to find the shortest path between vertices using 
-bellman-ford algorithm.*/
-
-//bellman ford algorithm for shortest distance from a source node to all the remaining nodes
-
 import java.util.*;
 public class BellmanFord {
     private static int N;
@@ -70,28 +65,4 @@ Vertex   Distance from Source
 3               4
 4               7
 5               2
-*/
-
-
-/*Enter the number of Vertices : 3
-Enter the Weight Matrix of Graph
-0 10 5
-0 0 -8
-0 0 0
-Enter the Source Vertex : 1
-Vertex   Distance from Source
-1               0
-2               10
-3               2
-*/
-
-
-/*
-Enter the number of Vertices : 3
-Enter the Weight Matrix of Graph
-0 10 0
-0 0 20
-0 -30 0
-Enter the Source Vertex : 1
-Negative weight cycle detected.
 */
