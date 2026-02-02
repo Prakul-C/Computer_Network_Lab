@@ -52,7 +52,4 @@ $ns at 0.0 "$cbr0 start"
 $ns at 5.0 "Finish"
 
 $ns run
-
-#output:-
-
 #The number of packet dropped is 8
